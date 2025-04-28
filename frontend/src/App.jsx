@@ -4,6 +4,7 @@ import Result from './pages/Result';
 import Buy from './pages/Buy';
 import {Routes,Route} from 'react-router-dom'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 export const App = () => {
@@ -16,6 +17,7 @@ export const App = () => {
         <Route path='/result' element={<Result/>}/>
         <Route path='/buy' element={<Buy/>}/>
       </Routes>
+      <Footer/>
     </div>
   )
 }
